@@ -1,0 +1,12 @@
+[package]
+name = "cvout-vst"
+version = "0.1.0"
+authors = ["Jelle Akkerman <jellea@users.noreply.github.com>"]
+
+[dependencies]
+vst = "0.0.1"
+rosc = "~0.1"
+
+[lib]
+name = "oscvst"
+crate-type = ["cdylib"]
